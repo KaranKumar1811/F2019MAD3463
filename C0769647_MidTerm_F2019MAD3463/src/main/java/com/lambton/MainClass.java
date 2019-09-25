@@ -12,7 +12,8 @@ public class MainClass {
         System.out.println(obj1.initials(name));
 
 
-
+        String word="karan kumar";
+        System.out.println(obj1.mostFrequent(word));
 
     }
 
