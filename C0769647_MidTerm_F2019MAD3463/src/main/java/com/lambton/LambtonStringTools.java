@@ -42,7 +42,7 @@ public class LambtonStringTools {
                         initial = initial + Character.toLowerCase(ini);
                             initial=initial;
 
-                    
+
                     }
                 }
             }
