@@ -11,7 +11,8 @@ public class LambtonStringTools {
     return rev;
     }
 
-    public static String initials(String s){
+    public static String initials(String s)
+    {
         String initial="";
         String[] PartsofName=s.split(" ");
         char ini;
@@ -49,5 +50,35 @@ public class LambtonStringTools {
 
             return (initial);
         }
+    }
+
+
+
+    public char[] mostFrequent (String str)
+    {
+        int temp = 0;
+        int count = 0;
+        int current = 0;
+        char[] fchar = new char[str.length()];
+        for (int i = 0; i < str.length(); i++) {
+            char ch = str.charAt(i);
+            for (int j = i + 1; j < str.length(); j++) {
+                char ch1 = str.charAt(j);
+                if (ch != ch1) {
+                    count++;
+                }
+            }
+            if (count > temp) {
+                temp = count;
+             
+                current++;
+            }
         }
+        return fchar;
+    }
+
+
+
+
+
 }

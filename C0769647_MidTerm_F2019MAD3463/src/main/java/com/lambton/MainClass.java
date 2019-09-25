@@ -11,6 +11,9 @@ public class MainClass {
         String name="KaDFran kmsr kUMadAR";
         System.out.println(obj1.initials(name));
 
+
+
+
     }
 
 
