@@ -78,7 +78,20 @@ public class LambtonStringTools {
     }
 
 
+    public static String replaceSubString(String s1,String s2, String s3)
+    {
+        int i = s3.indexOf(s1);
 
+        if (i<0)
+        {
+            return s3;
+        }
+        String prevst = s3.substring(0, i);
+
+        String afst  = s3.substring(i + s1.length());
+
+        return prevst + s2 + afst;
+    }
 
 
 }
