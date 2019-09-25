@@ -8,5 +8,13 @@ public class MainClass {
         System.out.println(obj1.reverse(a));
 
 
+        String name="KaDFran kmsr kUmAR";
+        System.out.println(obj1.initials(name));
+
     }
+
+
+
+
+
 }
