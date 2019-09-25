@@ -15,6 +15,8 @@ public class MainClass {
         String word="karan kumar";
         System.out.println(obj1.mostFrequent(word));
 
+        System.out.println(obj1.replaceSubString("my name is karan kumar ","His","my"));
+
     }
 
 
