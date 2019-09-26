@@ -7,7 +7,6 @@ public class MainClass {
         LambtonStringTools obj1=new LambtonStringTools();
         System.out.println(obj1.reverse(a));
 
-
         String name="KaDFran kmsr kUMadAR";
         System.out.println(obj1.initials(name));
 
