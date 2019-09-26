@@ -42,8 +42,6 @@ public class LambtonStringTools {
                             ini = PartsofName[2].charAt(z);
                         initial = initial + Character.toLowerCase(ini);
                             initial=initial;
-
-
                     }
                 }
             }
