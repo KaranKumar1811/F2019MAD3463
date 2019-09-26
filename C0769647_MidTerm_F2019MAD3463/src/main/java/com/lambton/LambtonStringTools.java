@@ -20,8 +20,6 @@ public class LambtonStringTools {
             return null;
         }
         else {
-
-
             for (int i = 0; i < PartsofName.length; i++) {
                 if(i!=2)
                 {
