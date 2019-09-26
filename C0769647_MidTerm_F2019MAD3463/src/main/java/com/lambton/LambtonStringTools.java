@@ -53,8 +53,7 @@ public class LambtonStringTools {
 
 
     public char[] mostFrequent (String str)
-    {
-        int temp = 0;
+    {        int temp = 0;
         int count = 0;
         int current = 0;
         char[] fchar = new char[str.length()];
@@ -63,10 +62,8 @@ public class LambtonStringTools {
             for (int j = i + 1; j < str.length(); j++) {
                 char ch1 = str.charAt(j);
                 if (ch != ch1) {
-
                     count++;
-                }
-            }
+                }            }
             if (count > temp) {
                 temp = count;
                 current++;
