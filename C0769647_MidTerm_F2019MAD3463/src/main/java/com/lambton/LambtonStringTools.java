@@ -63,12 +63,12 @@ public class LambtonStringTools {
             for (int j = i + 1; j < str.length(); j++) {
                 char ch1 = str.charAt(j);
                 if (ch != ch1) {
+
                     count++;
                 }
             }
             if (count > temp) {
                 temp = count;
-
                 current++;
             }
         }
